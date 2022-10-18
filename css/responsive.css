@@ -1,0 +1,185 @@
+@media(min-width: 1200px){
+	.container{
+		max-width: 1100px;
+	}
+} 
+@media(min-width: 1400px){
+	.container{
+		max-width: 1100px;
+	}
+} 
+
+@media(max-width: 1200px){
+	.how-it-works-outer ul >li:not(:last-of-type)::after { 
+	    width: calc(100% - 52px); 
+	}
+	.subscribe-form .form-fields{
+		flex-direction: column;
+	}
+	.subscribe-form .form-fields input[type="text"],
+	.subscribe-form .form-fields input[type="submit"]{
+		width: 100%;
+	}
+}
+@media(max-width: 991px){
+	p{
+		font-size: 16px;
+	}
+	.cs-heading h2 {
+	    font-size: 33px;
+	}
+	.mobile-toogle {
+	    order: 5;
+	}
+	.navbar-collapse {
+	    position: absolute;
+	    top: 100%;
+	    left: 0;
+	    right: 0;
+	    background-color: #fff;
+	    padding: 15px 0;
+	}
+	header ul.navbar-nav  li:not(:last-of-type) {
+	    margin-right: 0;
+	}
+	header ul.navbar-nav  li{
+		padding: 5px 0 ;
+	}
+	.navbar-toggler-icon{
+	    display: inline-flex;
+	    align-items: center;
+	    justify-content: center;
+	}
+	.banner .item-inner {
+	    padding: 220px 0 98px 0;
+	}
+	.banner .banner-text h1 { 
+	    font-size: 36px;
+	    line-height: 35px; 
+	    max-width: 372px;
+	}
+	.banner .banner-btn .cs-btn {
+	    margin-top: 20px;
+	    min-width: 185px;
+	}
+	.cs-btn { 
+	    font-size: 17px;
+	    line-height: 20px;
+	}
+	.plan-outer >ul >li { 
+	    width: 232px; 	
+	}
+	.plan-outer >ul >li:not(:nth-of-type(2)) .plan-icon {
+	    height: 126px;
+	}
+	.plan-outer >ul >li:nth-of-type(2) .plan-icon {
+	    height: 172px;
+	}
+	.plan-outer .plan-price-inner h3 { 
+	    font-size: 40px;
+	    line-height: 17px; 
+	}
+	.plan-outer .plan-price-inner h5 {
+	    margin-top: 21px; 
+	    font-size: 20px;
+	    line-height: 27px;
+	}
+	.plan-outer .plan-price-inner ul li { 
+	    font-size: 17px;
+	    line-height: 26px;
+	}
+	.how-it-works-outer ul li {
+	    width: 166px;
+	}
+	.how-it-works-outer .how-it-works-inner figure {
+	    margin-bottom: 24px;
+	    width: 62px;
+	    height: 62px; 
+	}
+	.how-it-works-outer .how-it-works-inner h3 {
+	    font-size: 16px;
+	    line-height: 17px;
+	    margin-bottom: 10px;
+	}
+	.how-it-works-outer ul >li:not(:last-of-type)::after {
+	    width: calc(100% - 66px);  
+	    left: 120px; 
+	}
+	.benefits figure { 	    
+		max-width: 80%;
+	}
+	.benefits-text li {
+	    padding-left: 48px;
+	    font-size: 21px;
+	    line-height: 23px; 
+	}
+}
+@media(max-width: 767px){
+	header a.navbar-brand, header a.navbar-brand img {
+	    width: 67px;
+	}
+	header .login-trail {
+	    padding-left: 0;
+	}
+	.banner .item-inner {
+	    padding: 190px 0 98px 0;
+	}
+	.banner .banner-text h1 {
+	    font-size: 32px;
+	    line-height: 32px;
+	    max-width: 372px;
+	    margin-bottom: 30px;
+	}
+	p {
+	    font-size: 15px;
+	}
+	.plan-outer >ul >li {
+	    width: 100%;
+	}
+	.plan-outer >ul >li:not(:nth-of-type(2)) {
+	    margin-top: 20px;
+	}
+	.how-it-works-outer ul li {
+	    width: 50%;
+	}
+	.how-it-works-outer .how-it-works-inner{
+	    max-width: 210px;
+    	margin: 0 auto;
+	}
+	.how-it-works-outer ul >li:not(:last-of-type)::after{
+		display: none;
+	}
+	.benefits figure{
+		margin: 0 auto 50px;
+	}
+	.benefits-text li:not(:last-of-type)::after{
+		display: none;
+	}
+	footer .footer-links { 
+	    margin: 50px 0;
+	}
+	footer .footer-links ul li{
+		padding-left: 0;
+	}
+}
+@media(max-width: 575px){
+	.cs-heading h2 {
+	    font-size: 27px;
+	    line-height: 1.2;
+	}
+	.how-it-works-outer ul li {
+	    width: 100%;
+	}
+	header a.navbar-brand, header a.navbar-brand img {
+	    width: 57px;
+	}
+	header ul li:not(:last-of-type) {
+	    margin-right: 15px;
+	}
+	header .login-trail ul li a.cs-btn {
+	    padding: 8px 13px;
+	    font-size: 15px;
+	    line-height: 20px;
+	    min-width: 122px;
+	}
+}
