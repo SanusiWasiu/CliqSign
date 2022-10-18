@@ -481,29 +481,33 @@ header .login-trail ul li a.cs-btn {
 }
 /*Features css start*/
 .features{
-    padding: 60px 0;
+    /* padding: 60px 0; */
 }
 .features ul li{
-    width: 195px;
+    /* width: 195px; */
     max-width: 100%;
-    margin-top: 22px;
+    /* margin-top: 22px; */
     position: relative;
+    width: 231px;
+    height: 225px;
+    margin-bottom: 1000px;
+    margin: 22px 15px;
 }
-.features-outer >ul >li{
+/* .features-outer >ul >li{
     max-width: 100%;
     width: 230px;
     padding: 0 25px;
     margin-top: 26px;
     height: 225px;
     
-}
+} */
 .features-outer ul .inner-wrap{
     border-radius: 20px;
     overflow: hidden;
     background: #E9E9E9;
 }
 .features-icon{
-    padding: 30px;
+    /* padding: 30px; */
     position: relative;
 }
 .features-icon figure{
@@ -521,31 +525,28 @@ header .login-trail ul li a.cs-btn {
     padding: 40px 18px;
     text-align: center;
 }
-.features-outer .plan-price-inner  h3{
-    font-family: var(--avenirNext); 
-    font-size: 48px;
-    line-height: 23px;
-    font-weight: 600; 
-    margin-bottom: 26px;
-}
-.features-outer .plan-price-inner h3 sup {
-    font-size: 15px;
-    line-height: 15px;
-    font-weight: 300;
-    top: -21px;
-}
-.features-outer .plan-price-inner  h3 sub{
-    font-size: 12px;
-    line-height: 12px;
-    font-weight: 300;
-}
 .features-outer .plan-price-inner  h4{
     font-family: var(--avenirNext); 
     font-size: 20px;
     line-height: 23px;
     margin-bottom: 17px;
-    color: var(--red);
-    text-transform: uppercase;
+}
+.features a{
+    width: 164px;
+    max-width: 100%;
+    line-height: 33px;
+    background-color: var(--red);
+    border-radius: 30px;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    align-self: center;
+    justify-items: center;
+}
+.features a:hover{
+    color: #fff;
+    background-color: var(--blue);
 }
 
 /*benefits css start*/
